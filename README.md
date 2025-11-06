@@ -19,7 +19,7 @@ devtools::install_github("warint/sessioncleanR")
 
 ```r
 # install.packages("remotes")
-remotes::install_github("warint/sessioncleanr")
+remotes::install_github("warint/sessioncleanR")
 ```
 
 Then load the package:
