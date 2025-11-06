@@ -13,7 +13,7 @@ This is particularly useful in reproducible pipelines, scheduled scripts, or aut
 ```r
 # install.packages("devtools")
 devtools::install_github("your-username/sessioncleanr")
-````
+```
 
 ### Using **remotes** (lighter dependency)
 
