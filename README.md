@@ -12,14 +12,14 @@ This is particularly useful in reproducible pipelines, scheduled scripts, or aut
 
 ```r
 # install.packages("devtools")
-devtools::install_github("your-username/sessioncleanr")
+devtools::install_github("warint/sessioncleanR")
 ```
 
 ### Using **remotes** (lighter dependency)
 
 ```r
 # install.packages("remotes")
-remotes::install_github("your-username/sessioncleanr")
+remotes::install_github("warint/sessioncleanr")
 ```
 
 Then load the package:
