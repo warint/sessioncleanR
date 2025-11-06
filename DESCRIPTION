@@ -1,0 +1,14 @@
+Package: sessioncleanr
+Type: Package
+Title: Conservative End-of-Session Cleanup Utilities
+Version: 0.1.0
+Authors@R: c(person(given = "Thierry", family = "Warin", role = c("aut", "cre"), email = "thierry.warin@example.com"))
+Description: Provides a single high-level function 'clean_session()' to close graphics devices, stop parallel clusters, close connections, disconnect DBI connections, clear temporary files created in the current tempdir, optionally unload non-base namespaces, remove objects from the global environment, and trigger garbage collection. Designed to be called at the end of scripts and in 'on.exit()' handlers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: DBI, parallel
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
