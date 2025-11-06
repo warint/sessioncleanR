@@ -20,6 +20,7 @@
 #'   # ... your analysis ...
 #'   clean_session()
 #' }
+#' @importFrom grDevices graphics.off
 #' @export
 clean_session <- function(
   remove_objects   = TRUE,
