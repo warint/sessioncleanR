@@ -4,6 +4,12 @@
 It helps restore a neutral working environment by closing graphics devices, stopping parallel clusters, closing open connections, removing temporary files, unloading optional namespaces, and triggering garbage collection.  
 This is particularly useful in reproducible pipelines, scheduled scripts, or automated reports that run unattended.
 
+
+## Why sessioncleanR?
+
+When working in R, memory and system resources accumulate across a session — open graphics devices, lingering parallel clusters, file connections, and temporary files can persist even after a script finishes. Over time, this affects performance, reproducibility, and reliability in automated or scheduled tasks.
+sessioncleanR provides a simple, one-line solution for restoring a neutral working environment. By calling clean_session() at the end of a script—or registering it with on.exit()—users ensure that memory is freed, connections are closed, and temporary files are removed. This promotes reproducible research, robust automation, and cleaner R workflows, particularly for data science pipelines and academic computing environments.
+
 ---
 
 ## Installation
