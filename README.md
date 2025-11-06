@@ -101,6 +101,6 @@ If you use this package, please cite:
 > Available at [https://github.com/thierrywarin/sessioncleanr](https://github.com/thierrywarin/sessioncleanr)
 
 ```r
-citation("sessioncleanr")
+citation("sessioncleanR")
 ```
 
