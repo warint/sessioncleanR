@@ -95,7 +95,7 @@ See the `DESCRIPTION` file for details.
 
 ## Citation
 
-If you use this package in academic work, please cite:
+If you use this package, please cite:
 
 > Warin, T. (2025). *sessioncleanR: Conservative End-of-Session Cleanup Utilities for R* (Version 0.1.0). GitHub.
 > Available at [https://github.com/thierrywarin/sessioncleanr](https://github.com/thierrywarin/sessioncleanr)
