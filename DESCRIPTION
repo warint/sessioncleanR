@@ -1,4 +1,4 @@
-Package: sessioncleanr
+Package: sessioncleanR
 Type: Package
 Title: Conservative End-of-Session Cleanup Utilities
 Version: 0.1.0
