@@ -1,6 +1,6 @@
-# sessioncleanr
+# sessioncleanR
 
-`sessioncleanr` provides a single, reliable function — `clean_session()` — for conservative end-of-script hygiene in R.  
+`sessioncleanR` provides a single, reliable function — `clean_session()` — for conservative end-of-script hygiene in R.  
 It helps restore a neutral working environment by closing graphics devices, stopping parallel clusters, closing open connections, removing temporary files, unloading optional namespaces, and triggering garbage collection.  
 This is particularly useful in reproducible pipelines, scheduled scripts, or automated reports that run unattended.
 
@@ -91,7 +91,7 @@ See the `DESCRIPTION` file for details.
 
 If you use this package in academic work, please cite:
 
-> Warin, T. (2025). *sessioncleanr: Conservative End-of-Session Cleanup Utilities for R* (Version 0.1.0). GitHub.
+> Warin, T. (2025). *sessioncleanR: Conservative End-of-Session Cleanup Utilities for R* (Version 0.1.0). GitHub.
 > Available at [https://github.com/thierrywarin/sessioncleanr](https://github.com/thierrywarin/sessioncleanr)
 
 ```r
